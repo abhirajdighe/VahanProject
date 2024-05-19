@@ -1,0 +1,56 @@
+
+  .addContainer{
+    position: absolute;
+    background-color: rgba(0,0,0,0,2);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .addContainer form{
+    width: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0,2);
+    border-radius: 5px;
+  }
+  
+  .addContainer form label{
+    font-size: 18px;
+  }
+  
+  .addContainer form input{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .addContainer form button{
+    background-color: royalblue;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .addContainer form .close-btn{
+    margin-left: auto;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    /* background-color: rgb(218, 107, 107); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  
